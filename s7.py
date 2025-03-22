@@ -9,6 +9,7 @@ for table , path in paths_tables.items():
         print(root,files)
         for file in files:
             if file.endswith(".csv"):
+                #shipment_file check
                 if file == 'csv_shipment.csv' or  file=='csv_order_data.csv':
                     print(file)
                     database='custm'
